@@ -1,0 +1,41 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #b7c1cd;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #b7c1cd;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #b7c1cd;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #b7c1cd;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #b7c1cd;
+}
+
+.hide {
+    display: none;
+}
